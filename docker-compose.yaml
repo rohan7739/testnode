@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "rohan7739/node-app-test-new:latest"
+    ports:
+      - "3000:3000"
